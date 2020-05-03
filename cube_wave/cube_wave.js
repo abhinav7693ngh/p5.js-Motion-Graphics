@@ -1,4 +1,4 @@
-let isRecording = true;
+let isRecording = false;
 let firstFrame = 1;
 let lastFrame = 125;
 let canvasToRecord;
