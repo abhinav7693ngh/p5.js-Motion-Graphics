@@ -1,9 +1,17 @@
+let isRecording = true;
+let firstFrame = 1;
+let lastFrame = 125;
+let canvasToRecord;
+
+
 let angle = 0;
+let canvas;
 
 
 function setup() {
-    createCanvas(800, 800, WEBGL);
+    canvasToRecord = createCanvas(800, 800, WEBGL).canvas;
 }
+
 
 function draw() {
     background(255);
@@ -29,4 +37,5 @@ function draw() {
 
     angle -= 0.04;
 
+    recordGIF();
 }
