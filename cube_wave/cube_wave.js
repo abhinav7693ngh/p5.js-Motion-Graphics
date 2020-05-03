@@ -1,6 +1,6 @@
 let isRecording = false;
 let firstFrame = 1;
-let lastFrame = 125;
+let lastFrame = 240;
 let canvasToRecord;
 
 
